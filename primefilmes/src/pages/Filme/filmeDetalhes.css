@@ -1,0 +1,67 @@
+.filme-detalhes {
+    padding: 0 2rem 2rem 2rem;
+    max-width: 1100px;
+    margin: 3rem auto;
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 2rem;
+}
+
+.filme-detalhes img {
+    border-radius: 8px;
+    width: 480px;
+    height: 520px;
+    object-fit: cover;
+    box-shadow: rgba(163, 157, 157, 0.2) 0px 2px 8px 0px;
+}
+
+.filme-detalhes h1 {
+    margin-bottom: 1.5rem;
+    color: #00EED0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.filme-detalhes .descricao span {
+    display: block;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: .9rem;
+}
+
+.filme-detalhes .descricao p {
+    color: #fff;
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.areaBtn button {
+    margin-right: 1.5rem;
+    outline: none;
+    border-radius: 4px;
+    padding: .5rem 2rem;
+    cursor: pointer;
+    background-color: #00EED0;
+    border: 1px solid #00EED0;
+    text-decoration: none;
+    color: #010A3D;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.areaBtn button:hover {
+    border: 1px solid #00EED0;
+    background-color: transparent;
+    color: #00EED0;
+}
+
+.areaBtn a {
+    text-decoration: none;
+    color: #010A3D;
+}
+
+.areaBtn a:hover {
+    color: #00EED0;
+}
